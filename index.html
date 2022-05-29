@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script."></script>
+</head>
+
+<body>
+
+    <!-- top navigation -->
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+
+    <!-- main content -->
+    <div class="flex-container">
+
+        <!-- left column -->
+        <div class="col-l">
+
+            <!-- this is a placeholder replace it with a real video -->
+            <figure class="placeholder">
+                <!-- <svg style="text-anchor:middle;" width="720" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 720x400" preserveAspectRatio="xMidYMid slice" focusable="false"> -->
+                <video src="assets/production ID_4473015.mp4" width="720" height="400"  muted onmouseover="over(this)" onmouseout="out(this)"></video>
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect>
+                <text x="50%" y="50%" dy=".3em" fill="#dee2e6">Replace Me!</text>
+                </svg>
+            </figure>
+
+            <!-- video info -->
+            <div class="row">
+                <div class="start">
+                    <h1>Healthy Breakfast Ideas ! </h1>
+                    <h3>1.3K Views | May, 19, 2022</h3>
+                    <div class="user">
+                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
+                        
+                        <span class="user-name">Roaa Albishri</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="col-r">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <!-- <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s"> -->
+                <video src="assets/pexels-ivan-khmelyuk-7222009.mp4" muted alt="video placeholder" class="vid-s"  onmouseover="over(this)" onmouseout="out(this)"></video>
+                <span class="video-title">Sunset vlog!</span>
+            </div>
+
+            <div class="video-small">
+                <!-- <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s"> -->
+                <video src="assets/pexels-cottonbro-6954270.mp4" muted alt="video placeholder" class="vid-s" onmouseover="over(this)" onmouseout="out(this)"></video>
+                <span class="video-title">Living Inside A Car For 24 Hours Challenges!</span>
+            </div>
+
+            <div class="video-small">
+                <!-- <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s"> -->
+                <video src="assets/pexels-nothing-ahead-10505868.mp4" muted alt="video placeholder" class="vid-s" onmouseover="over(this)" onmouseout="out(this)"></video>
+                <span class="video-title">A Weekend Beach Trip!</span>
+            </div>
+
+            <div class="video-small">
+                <!-- <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s"> -->
+                <video src="assets/production ID_4784177.mp4" muted  alt="video placeholder" class="vid-s" onmouseover="over(this)" onmouseout="out(this)"></video>
+                <span class="video-title">Gulf Day!</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
